@@ -24,7 +24,7 @@ data/
   val_target.npy
 ```
 
-How to use:
+## How to use:
 
 ```bash
 python train_cnn.py --data-dir data --epochs 5 --train-subset 4096 --val-subset 1024
