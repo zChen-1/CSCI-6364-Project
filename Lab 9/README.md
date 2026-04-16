@@ -13,6 +13,7 @@ This model learns an ensemble of decision trees based on features within a plana
 It loads preprocessed classification data, utilizes the `scale_pos_weight` parameter to address class imbalance, and trains a boosted tree classifier. Subsequently, it selects the optimal classification threshold based on the F1 score on the validation set, evaluates the model on an independent test set, and records the time required for both training and inference. XGBoost is a tabular data model based on boosting algorithms, whereas the Transformer is a sequence model that incorporates self-attention mechanisms.
 
 
+## 
 The code assumes the same standard quickstart file names used in the current project:
 
 - `train_input.npy`
